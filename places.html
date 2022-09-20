@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .card {
+        border-radius: 1em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        margin: auto;
+      }
+      body {
+        background-color: rgba(0, 0, 0, 0.05);
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="mers.png" alt="Mers" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">         
+          <div class="card">
+            <img src="salon.jpg" class="card-img-top" alt="Salon" />
+            <div class="card-body">
+              <h5 class="card-title">Mercedes car dealership</h5>
+              <p class="card-text">
+                Mercedes - the best cars.
+              </p>
+              <a href="https://www.mercedes-rnd.ru/ru/desktop/home.html" target="_blank" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="tea.jpg" class="card-img-top" alt="Tea" />
+          <div class="card-body">
+            <h5 class="card-title">Teahouse</h5>
+            <p class="card-text">
+              To the tea house in 3 seconds.
+            </p>
+            <a href="https://chaihona.ru/news/events/vasilchuki-chaihona-no1-v-rostove-na-donu" target="_blank" class="btn btn-primary">More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="autos.jpg" class="card-img-top" alt="Autos" />
+        <div class="card-body">
+          <h5 class="card-title">Car service</h5>
+          <p class="card-text">
+            Liter of oil every day.
+          </p>
+          <a href="https://avtoservis-rostov.ru/" target="_blank" class="btn btn-primary">More</a>
+      </div>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>
